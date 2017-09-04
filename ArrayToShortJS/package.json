@@ -1,0 +1,28 @@
+{
+  "name": "flex-fql-validator-js-library",
+  "version": "0.0.1",
+  "main": "video-marker.js",
+  "description": "",
+  "scripts": {
+    "build": "java -jar antlrTool/antlr-4.7-complete.jar -Dlanguage=JavaScript src/languageDefinition/ArrayInit.g4 ; webpack"
+  },
+  "files": [
+    "video-marker.js"
+  ],
+  "dependencies": {
+
+    "antlr4": "4.7.0",
+    "requirejs": "2.3.5"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.2.0",
+    "gulp": "^3.9.0",
+    "karma": "^1.0",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.5",
+    "angular": "^1.6.4",
+    "angular-mocks": "^1.6.4",
+    "gulp-concat": "^2.6.0",
+    "gulp-clean": "^0.3.2"
+  }
+}
