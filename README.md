@@ -10,3 +10,11 @@ https://sandeepcode.wordpress.com/
 
 # Usage
 
+Run:
+
+npm install
+npm run build
+
+and thats it
+
+you should have a file called: sample/index.html, I dont have patience to make all input and output pretty its all done in console.log , look at src/index.js to see the usage example.
